@@ -42,6 +42,6 @@ jobs:
         uses: azure/webapps-deploy@v1
         with:
           app-name: frontend-aplikacja1
-          publish-profile: ${{sercrets.AZURE_WEB_APP_PUBLISH_PROFILE}}
+          publish-profile: ${{secrets.AZURE_WEB_APP_PUBLISH_PROFILE}}
 
 
